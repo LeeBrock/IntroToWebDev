@@ -1,0 +1,59 @@
+.header {
+    
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica;
+    
+    }
+
+.footer {
+    
+    margin: auto;
+    text-align: center;
+    
+    }
+
+.menubody {
+
+    background-color: rgb(210,280,140)
+
+}
+
+td.beveragename, td.beverageprice {
+
+    background-color: lightblue;
+
+}
+
+.homepagebackground {
+    
+    background-color: rgb(110,280,240);
+    background-size: 100px 100px
+
+}
+
+a {
+
+    color: none;
+    font-weight: normal;
+    text-decoration: underline;
+
+}
+
+a:active {
+
+    text-decoration: none;
+
+}
+
+a:visited {
+
+    color: blueviolet;
+
+}
+
+a:hover {
+
+    font-weight: bold;
+
+}

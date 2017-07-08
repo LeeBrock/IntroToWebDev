@@ -1,0 +1,19 @@
+td.songname, td.songnnumber, td.songlength{
+    
+    font-style: italic;
+    
+    }
+
+tbody {
+    background-color: tan;
+}
+
+a {
+    text-decoration: none;
+    }
+
+a:hover
+ {
+     text-decoration: underline;
+     background-color: greenyellow;
+     }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+            type="text/css"
+            href="restaurantStyles.css">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+        </script>            
+
+        <style>
+
+        .menus {
+            text-align: left;
+                }
+
+        .required {
+
+            font-weight: bold;
+                }
+
+        </style>
+
+        </head>
+<body>
+        <title>Contact Us</title>
+
+    <h1 class="header">Brock's Fine Dining</h1>
+
+<hr>
+    <div class="container">
+        <ul class="nav nav-tabs">    
+            <li><a href="homepage.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    
+
+    <br/>
+<p class="required">Name: <input type="text" name="Name" /></p>
+<p class="required">Email: <input type="email" name="Email" /></p>
+<p class="required">Phone: <input type="phone" name="Phone" /></p>
+<p class="required">Reason for Inquiry:
+    <select name="reason">
+        <option value="Catering">Catering</option>
+        <option value="PrivateParty">Private Party</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Other">Other</option></p>
+        <br/></select>
+        <br/>
+<p class="optional">Additional Information: <textarea name="AdditionalInformation"></textarea></p>
+
+<p class="required">Have you been to the restaurant?
+    <input type="radio" name="HaveYouBeen" value="No" checked/>No
+    <input type="radio" name="HaveYouBeen" value="Yes"/>Yes</p>
+    Best days to contact you:
+<input type="checkbox" name="Days" value="M">M
+<input type="checkbox" name="Days" value="T">T
+<input type="checkbox" name="Days" value="W">W
+<input type="checkbox" name="Days" value="Th">Th
+<input type="checkbox" name="Days" value="F">F
+<br/>
+<div align="center">
+    <input type="submit" value="Send Request"/>
+</div>
+<br/>
+<hr/>
+
+<div class="footer">
+742 Evergreen Terrace, Springfield, ??, 58008<br/><br/>
+555-555-7334
+</div>
+</body>
+</html>
